@@ -4,8 +4,8 @@ name: CI for MWAA
       branches:
       - main
   jobs:
-	  deploy:
-	    runs-on: ubuntu-latest
+    deploy:
+      runs-on: ubuntu-latest
       steps:
       - uses: actions/checkout@main
       - uses: /s3-sync-action@master
