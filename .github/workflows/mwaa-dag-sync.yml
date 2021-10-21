@@ -3,7 +3,6 @@ name: CI for MWAA
     push:
       branches:
       - main
-	
   jobs:
 	  deploy:
 	    runs-on: ubuntu-latest
